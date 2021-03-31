@@ -39,7 +39,7 @@ function setup() {
 	amplitude.setInput(sound);
 	
 	rec = 0; // This only needs to be non-zero if using strokeCap(Project), since it means they will be properly rotated
-	img=loadImage("https://github.com/juddcraft12/music/blob/534694c58cc60026f46c9d9e6587172a48456e6b/Ignus%20logo.png")
+	img=loadImage("Ignus logo.png")
 }
 
 function draw() {
