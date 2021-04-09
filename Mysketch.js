@@ -39,12 +39,10 @@ function setup() {
 	amplitude.setInput(sound);
 	
 	rec = 0; // This only needs to be non-zero if using strokeCap(Project), since it means they will be properly rotated
-	img=loadImage("Ignus logo.png")
 }
 
 function draw() {
 	background(0);
-	image(img,110,0,1150,610)
 	if(sound.isLoaded()){
 		if(sound.isPlaying() == false && sound.isPaused() == false){ // Will return true if a sound has just been loaded in
 			sound.play();
