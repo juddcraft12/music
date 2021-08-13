@@ -2,8 +2,6 @@
 
 This is an Audio Visualiser, feel free to use it and remix it, just give credit.
 
-All the music comes from IncredFx, check him out:
-https://soundcloud.com/incredfx
 
 */
 
